@@ -2,17 +2,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ecommerce</title>
+  <!--=============== FAVICON ===============-->
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <!--=============== BOXICONS ===============-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap">
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="assets/css/style.css">
-  <!--=============== JS ===============-->
   <script src="./assets/js/app.js" type="module"></script>
 </head>
 
 <body>
 
+  <!--==================== LOADER ====================-->
+  <div class="load" id="load" style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="load__gif">
+      <title>Academlo Logo</title>
+      <g>
+        <g>
+          <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+          </path>
+          <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+          </path>
+        </g>
+      </g>
+    </svg>
+  </div>
 
   <!--==================== HEADER ====================-->
   <header class="header" id="header">
@@ -22,6 +37,7 @@
           <title>Academlo Logo</title>
           <g>
             <g>
+              <!-- <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z"></path> -->
               <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
               </path>
             </g>
@@ -70,7 +86,7 @@
     <i class="bx bx-x cart__close" id="cart-close"></i>
 
     <h2 class="cart__title-center">My Cart</h2>
-<!--
+
     <div class="cart__container">
         <article class="cart__card">
           <div class="cart__box">
@@ -101,7 +117,7 @@
             </div>
           </div>
         </article>
-
+<!--
         <article class="cart__card">
           <div class="cart__box">
             <img src="assets/img/featured3.png" alt="Sweatshirts" class="cart__img">
